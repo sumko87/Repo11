@@ -2,6 +2,7 @@
 function multiplyArrayFunction(myArray) {
     var sum = 0;
     var product = 1;
+    var arr = [];
     for (var i = 0; i < myArray.length; i++) {
       for (var j = 0; j < myArray[i].length; j++) {
         product *= myArray[i][j];
@@ -9,7 +10,8 @@ function multiplyArrayFunction(myArray) {
       }
     }
     // Only change code above this line
-    return {product, sum};
+    arr.push(product, sum);
+    return arr;
   }
   console.log(multiplyArrayFunction([[2], [5, 6, 7], [8, 9]])); // Change this line
   console.log(multiplyArrayFunction([[2.5, 2],[0.5,0.2],[8]])); // Change this line
