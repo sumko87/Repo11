@@ -2,8 +2,8 @@
 function largestNumFromArr(arr) {
     var maxNumArray = [];
     for(var i=0; i<arr.length;i++) {
-            const currentarr=arr[i];
-            const max = Math.max(...currentarr);
+            var currentArr=arr[i];
+            var max = Math.max(...currentArr);
             maxNumArray.push(max);
         }
     return maxNumArray;

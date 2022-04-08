@@ -5,7 +5,7 @@ var temps = [
     [17,27,42,46], //Wedensday
     [29,52,21,64], //Thursday
     [91,27,31,61]  //Friday
-]
+];
 // End of temps array
 // Create a function below this line
 function myArrayFunction(t) {
