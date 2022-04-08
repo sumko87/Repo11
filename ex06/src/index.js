@@ -1,7 +1,8 @@
 // Only change code below this line
-var myNestedArray = [["Toblerone", 5], ["Milka", 3]];
+var myNestedArray = [["Toblerone", 5]];
 function myNestedFunction(arr) {
-    return myNestedArray;
+    arr.push(["Milka", 3]);
+    return arr;
 }
 // Only change code above this line
 console.log(myNestedFunction(myNestedArray)); // Change this line
