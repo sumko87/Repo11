@@ -1,8 +1,8 @@
 // Only change code below this line
 function splitArrayInGroups(arr,n) {
     var result=[];
-    for (let i = 0; i<arr.length; i+=n) {
-        const chunk = arr.slice(i, i + n);
+    for (let i = 0; i<n; i++) {
+        const chunk = arr.slice(i * n, (i + 1) * n);
         result.push(chunk);
     }
     return result;
